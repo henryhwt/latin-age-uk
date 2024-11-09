@@ -4,7 +4,7 @@ import { MaxWidthWrapper } from "../components/max-width-wrapper"
 import { ShinyButton } from "../components/ShinyButton";
 import Image from "next/image";
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
-import { Check, HeartHandshake, MessageCircleHeart, Sparkles, Trees, UsersRound, Wrench } from "lucide-react";
+import { HeartHandshake, MessageCircleHeart, Sparkles, Trees, UsersRound, Wrench } from "lucide-react";
 
 
 export default function Home() {
