@@ -10,14 +10,15 @@ import { HeartHandshake, MessageCircleHeart, Sparkles, Trees, UsersRound, Wrench
 export default function Home() {
   return (
     <>
-    {/* <section className="relative py-24 sm:py-32 bg-brand-25"> */}
-      <section className="relative py-24 sm:py-32 bg-brand-25 bg-home-banner bg-cover bg-center">
-      <div className="absolute inset-0 bg-black opacity-75"></div>
-        <MaxWidthWrapper className="text-center">
+    <section className="relative py-24 sm:py-32 bg-gradient-to-br from-rose-600 to-yellow-500">
+      {/* <section className="relative py-24 sm:py-32 bg-brand-25 bg-home-banner bg-cover bg-center">
+      <div className="absolute inset-0 bg-black opacity-75"></div> */}
+        <MaxWidthWrapper className="text-center ">
           <div className="relative mx-auto text-center flex flex-col items-center gap-10">
             <div>
-              <Heading>
-                <span className="bg-gradient-to-r from-red-500 to-yellow-500 text-transparent bg-clip-text">Bolivian Latin</span><span className="bg-gradient-to-r from-yellow-500 to-green-500 text-transparent bg-clip-text"> Age Association</span>
+              <Heading className="">
+              {/* <span className="text-white">Bolivian Latin Age Association</span> */}
+                <span className="bg-gradient-to-r from-red-300 to-yellow-500 text-transparent bg-clip-text">Bolivian Latin</span><span className="bg-gradient-to-r from-yellow-500 to-green-500 text-transparent bg-clip-text"> Age Association</span>
                 <br />
                 <br/>
                 <span className="text-white">
@@ -26,12 +27,13 @@ export default function Home() {
               </Heading>
             </div>
 
-            <p className="text-base/7 text-white max-w-prose text-center text-pretty">
+            <p className="text-base/7 max-w-prose text-center text-pretty text-gray-200">
               
-            We're empowering individuals within the Bolivian and Latin community by providing a supportive and inclusive environment. We strive to 
+            We're empowering individuals within the Bolivian and Latin community by providing a supportive and inclusive environment.
+            We strive to 
              
               {" "}
-              <span className="font-semibold text-green-300">
+              <span className="font-semibold text-white-700">
               enhance social health and well-being, foster cultural appreciation, and build lasting connections
               </span>{" "}
               that unite us all in a shared sense of community.
