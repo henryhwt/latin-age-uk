@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     {/* <section className="relative py-24 sm:py-32 bg-brand-25"> */}
-      <section className="relative py-24 sm:py-32 bg-brand-25 bg-[url('./TINKUS2.webp')] bg-cover bg-center">
+      <section className="relative py-24 sm:py-32 bg-brand-25 bg-home-banner bg-cover bg-center">
       <div className="absolute inset-0 bg-black opacity-75"></div>
         <MaxWidthWrapper className="text-center">
           <div className="relative mx-auto text-center flex flex-col items-center gap-10">
