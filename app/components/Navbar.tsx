@@ -11,7 +11,7 @@ export const Navbar = async () => {
     <nav className="sticky z-[100] h-16 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all">
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex z-40 font-semibold text-2xl sm:text-1xl">
+          <Link href="/" className="flex z-40 font-semibold text-2xl sm:text-1xl text-brand-700">
             BLAS {" "} <span className="text-brand-600">UK</span>
           </Link>
 

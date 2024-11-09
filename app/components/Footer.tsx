@@ -8,10 +8,10 @@ export const Footer = async () => {
 
 
   return (
-    <nav className="sticky z-[100] h-16 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all">
+    <nav className="sticky z-[100] h-16 inset-x-0 top-0 w-full  bg-brand-700">
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between">
-         <p className="text-xs text-gray-500">
+         <p className="text-xs text-white">
           © 2024 BLAS UK is a community interest company based in London, UK.
           <br/>
           Registered company limited by guarantee (Company No. 14658220). 
