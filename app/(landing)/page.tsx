@@ -1,9 +1,9 @@
-import { Check } from "lucide-react";
+
 import { Heading } from "../components/Heading"
 import { MaxWidthWrapper } from "../components/max-width-wrapper"
 import { ShinyButton } from "../components/ShinyButton";
 import Image from "next/image";
-import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
 
 export default function Home() {
@@ -77,7 +77,7 @@ export default function Home() {
     <div className="relative">
     <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
           <Image className="size-full object-cover object-top"
-                 src="/Cat_August_2010-4.jpg"
+                 src="./Cat_August_2010-4.jpg"
                  alt="Phone screen displaying app interface"
                  fill />
         </div>
@@ -226,7 +226,7 @@ export default function Home() {
     <div className="relative">
     <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
           <Image className="size-full object-cover object-top"
-                 src="/Cat_August_2010-4.jpg"
+                 src="./Cat_August_2010-4.jpg"
                  alt="Phone screen displaying app interface"
                  fill />
         </div>

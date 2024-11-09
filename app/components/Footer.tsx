@@ -1,8 +1,6 @@
 import Link from "next/link"
 import { MaxWidthWrapper } from "@/app/components/max-width-wrapper"
-import { Button } from "@/components/ui/button"
 
-import { ArrowRight } from "lucide-react"
 import Image from "next/image"
 
 
@@ -26,7 +24,7 @@ export const Footer = async () => {
           <Link href="https://www.facebook.com/people/Latin-Age-Uk/100090506665209/" className="z-30 opacity-100 hover:opacity-100 ">
           <Image
             aria-hidden
-            src="/facebook.svg"
+            src="./facebook.svg"
             
             alt="Globe icon"
             width={30}
@@ -40,7 +38,7 @@ export const Footer = async () => {
             <Link href="https://www.instagram.com/latinageuk">
           <Image
             aria-hidden
-            src="/instagram.svg"
+            src="./instagram.svg"
             
             alt="Globe icon"
             width={30}
@@ -53,7 +51,7 @@ export const Footer = async () => {
             <Link href="https://twitter.com/latinageuk">
           <Image
             aria-hidden
-            src="/x.svg"
+            src="./x.svg"
             
             alt="Globe icon"
             width={30}
