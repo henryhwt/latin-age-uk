@@ -10,30 +10,30 @@ import { HeartHandshake, MessageCircleHeart, Sparkles, Trees, UsersRound, Wrench
 export default function Home() {
   return (
     <>
-    <section className="relative py-24 sm:py-32 bg-gradient-to-br from-rose-600 to-yellow-500">
+    <section className="relative py-24 sm:py-32 bg-gradient-to-br from-emerald-950 to-emerald-600">
       {/* <section className="relative py-24 sm:py-32 bg-brand-25 bg-home-banner bg-cover bg-center">
       <div className="absolute inset-0 bg-black opacity-75"></div> */}
         <MaxWidthWrapper className="text-center ">
           <div className="relative mx-auto text-center flex flex-col items-center gap-10">
             <div>
               <Heading className="">
-              {/* <span className="text-white">Bolivian Latin Age Association</span> */}
-                <span className="bg-gradient-to-r from-red-300 to-yellow-500 text-transparent bg-clip-text">Bolivian Latin</span><span className="bg-gradient-to-r from-yellow-500 to-green-500 text-transparent bg-clip-text"> Age Association</span>
-                <br />
+              <span className="text-white text-6xl">Bolivian Latin Age Association</span>
+                {/* <span className="bg-gradient-to-r from-red-500 to-yellow-500 text-transparent bg-clip-text">Bolivian Latin</span><span className="bg-gradient-to-r from-yellow-500 to-green-500 text-transparent bg-clip-text"> Age Association</span> */}
+                {/* <br />
                 <br/>
                 <span className="text-white">
                 Building Community, Sharing Culture
-                </span>
+                </span> */}
               </Heading>
             </div>
 
-            <p className="text-base/7 max-w-prose text-center text-pretty text-gray-200">
+            <p className="text-base/7 max-w-prose text-center text-pretty text-gray-300 text-lg pt-6">
               
             We're empowering individuals within the Bolivian and Latin community by providing a supportive and inclusive environment.
             We strive to 
              
               {" "}
-              <span className="font-semibold text-white-700">
+              <span className="font-semibold text-green-500">
               enhance social health and well-being, foster cultural appreciation, and build lasting connections
               </span>{" "}
               that unite us all in a shared sense of community.
@@ -41,7 +41,7 @@ export default function Home() {
 
 
 
-            <div className="w-full max-w-80">
+            <div className="w-full max-w-80 shadow-md">
               <ShinyButton
                 href="https://www.facebook.com/people/Latin-Age-Uk/100090506665209/"
                 className="relative z-10 h-14 w-full text-base shadow-lg transition-shadow duration-300 hover:shadow-xl"
@@ -56,11 +56,11 @@ export default function Home() {
 
       <section className="relative py-24 sm:py-16 bg-brand-25">
         <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-20">
-          <div>
+          <div className="">
             <h2 className="text-center text-base/7 font-semibold text-brand-600">
           
             </h2>
-            <Heading>Who we are</Heading>
+            <Heading className="text-center bg-gradient-to-r from-emerald-900 to-emerald-600 text-transparent bg-clip-text py-2">Building Community, Sharing Culture</Heading>
           </div>
           <div className="grid gap-4 lg:grid-cols-2">
     <div className="relative">
@@ -94,12 +94,12 @@ export default function Home() {
 
 
 
-    <section className="relative py-24 sm:py-32 bg-brand-700">
+    <section className="relative py-24 sm:py-32 bg-gradient-to-br from-emerald-950 to-emerald-600">
         <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-20">
           <div>
             <h2 className="text-center text-base/7 font-semibold text-brand-600">
             </h2>
-            <Heading className="text-white">Our Values</Heading>
+            <Heading className="text-white">What we value</Heading>
           </div>
           <div className="grid gap-4">
           {/* <ul className="space-y-2 text-sm/7 text-gray-600 text-left flex flex-col items-start">
@@ -161,7 +161,7 @@ export default function Home() {
     ].map((item, index) => (
       <Card
         key={index}
-        className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 "
+        className="bg-white p-6 rounded-lg shadow-md shadow-green-900 hover:shadow-lg transition-shadow duration-300 "
       >
         <CardDescription className="flex justify-center pt-2">{item.valueDescription}</CardDescription>
         <CardTitle className="text-xl font-semibold my-4 flex justify-center ">
@@ -229,7 +229,7 @@ export default function Home() {
             <h2 className="text-center text-base/7 font-semibold text-brand-600">
               
             </h2>
-            <Heading>Get Involved</Heading>
+            <Heading>Get involved</Heading>
           </div>
           <div className="grid gap-4 lg:grid-cols-2">
    

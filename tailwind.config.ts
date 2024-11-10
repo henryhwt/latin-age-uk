@@ -16,7 +16,10 @@ export default {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)',
 			brand:{
-				700: "#2E8B57",
+				400: "#4ade80",
+				500: "#22c55e",
+				600: "#16a34a",
+				700: "#15803d",
 				800: "#335269",
 			}
   		},
@@ -27,5 +30,12 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"),
+  ],
+
+
+
+
+
+
 } satisfies Config;
