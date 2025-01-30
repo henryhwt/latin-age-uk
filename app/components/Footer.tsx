@@ -12,7 +12,7 @@ export const Footer = async () => {
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between">
          <p className="text-xs text-white">
-          © 2024 BLAS UK is a community interest company based in London, UK.
+          © 2025 BLAS UK is a community interest company based in London, UK.
           <br/>
           Registered company limited by guarantee (Company No. 14658220). 
           </p>
@@ -24,7 +24,7 @@ export const Footer = async () => {
           <Link href="https://www.facebook.com/people/Latin-Age-Uk/100090506665209/" className="z-30 opacity-100 hover:opacity-100 ">
           <Image
             aria-hidden
-            src="./facebook.svg"
+            src="/facebook.svg"
             
             alt="Globe icon"
             width={30}
@@ -38,7 +38,7 @@ export const Footer = async () => {
             <Link href="https://www.instagram.com/latinageuk">
           <Image
             aria-hidden
-            src="./instagram.svg"
+            src="/instagram.svg"
             
             alt="Globe icon"
             width={30}
@@ -51,8 +51,8 @@ export const Footer = async () => {
             <Link href="https://twitter.com/latinageuk">
           <Image
             aria-hidden
-            src="./x.svg"
-            
+            src="/x.svg"
+      
             alt="Globe icon"
             width={30}
             height={30}

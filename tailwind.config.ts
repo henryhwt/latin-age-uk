@@ -8,9 +8,10 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-	// backgroundImage: {
-	// 	"home-banner": "url('../public/TINKUS2.webp')",
-	// },
+	backgroundImage: {
+		"home-banner": "url('/2d8bff53-38eb-4549-b9fa-35b06c640291.jpg')",
+
+	},
   	extend: {
   		colors: {
   			background: 'var(--background)',
