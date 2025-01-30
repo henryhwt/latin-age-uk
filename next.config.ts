@@ -7,9 +7,9 @@ const withNextIntl = createNextIntPlugin(
 /** @type {import('next').NextConfig} */
 
 const nextConfig: NextConfig = {
-  output: "export",
-  basePath: '/latin-age-uk',
-  assetPrefix: '/latin-age-uk/',
+  // output: "export",
+  // basePath: '/latin-age-uk',
+  // assetPrefix: '/latin-age-uk/',
 
 };
 

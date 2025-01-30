@@ -18,7 +18,7 @@ export default function Home() {
         <MaxWidthWrapper className="text-center ">
           <div className="absolute right-0 my-20 sm:mb-56 sm:bottom-0 sm:mr-6 ">
             <Heading className="">
-              <span className="leading-loose sm:leading-none text-white text-6xl bg-brand-700  md:p-7 rounded-md block">Bolivian Latin Aging Association</span>
+              <span className="leading-loose sm:leading-none text-white text-6xl bg-brand-700  md:p-7 rounded-md block">Bolivian Latin Ageing Association</span>
             </Heading>
           </div>
 
