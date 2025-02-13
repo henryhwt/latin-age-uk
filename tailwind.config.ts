@@ -8,11 +8,12 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-	backgroundImage: {
-		"home-banner": "url('./hero-image.jpg')",
 
-	},
   	extend: {
+		backgroundImage: {
+			"home-banner": "url('./heroimage.jpg')",
+	
+		},
   		colors: {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)',

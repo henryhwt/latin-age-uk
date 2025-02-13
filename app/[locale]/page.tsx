@@ -51,7 +51,7 @@ export default function Home({ params: { locale } }: {params: {locale: "en"| "es
             <div className="relative">
               <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                 <Image className="size-full object-cover object-center"
-                  src="/fc758102-96f0-4e4e-bb88-263432aaf482.JPG"
+                  src="./dress.jpg"
                   alt="Bolivian Latin Aging Association UK"
                   fill />
               </div>

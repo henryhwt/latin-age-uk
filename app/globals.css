@@ -6,6 +6,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.home-banner {
+  background-image: url('./heroimage.jpg'); 
+
+}
+
+
 @layer base {
   :root {
     --radius: 0.5rem;
