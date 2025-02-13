@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 export const Banner = () => {
     const t = useTranslations('HomePage');
-    const locale = useLocale();
+
 
     return (
 
