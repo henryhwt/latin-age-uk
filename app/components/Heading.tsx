@@ -1,3 +1,4 @@
+
 import { cn } from '@/lib/utils'
 import { HTMLAttributes, ReactNode } from 'react'
 
@@ -12,6 +13,7 @@ export const Heading = ({children,className,...props}:HeadingProps) => {
     {...props}
     >
         {children}
+        
     </h1>
   )
 }
