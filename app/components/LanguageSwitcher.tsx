@@ -21,13 +21,13 @@ const LanguageSwitcher = () => {
 
   return (
     <div>
-      <button>
+      <Button>
       {otherLocales.map(locale => (
         <Link key={locale} href={getNewPath(locale)}>
           <button>{locale == 'en' ? "English" : "Español"}</button>
         </Link>
       ))}
-      </button>
+      </Button>
     </div>
   );
 };
