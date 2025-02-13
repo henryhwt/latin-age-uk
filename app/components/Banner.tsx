@@ -4,8 +4,6 @@ import Link from "next/link";
 
 export const Banner = () => {
     const t = useTranslations('HomePage');
-
-
     return (
 
         <div className="bg-brand-700 rounded-md">
