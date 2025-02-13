@@ -15,7 +15,14 @@ export const metadata: Metadata = {
     "We're empowering individuals within the Bolivian and Latin community by providing a supportive and inclusive environment. We strive to enhance social health and well-being, foster cultural appreciation, and build lasting connections that unite us all in a shared sense of community.",
 };
 
-export default async function LocaleLayout({ children, params: { locale } }) {
+interface LocaleLayoutProps {
+  children: React.ReactNode;
+  params: {
+    locale: 'en' | 'es';
+  };
+}
+
+export default async function LocaleLayout({ children, params: { locale } }: LocaleLayoutProps) {
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
     notFound();
@@ -23,7 +30,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   setRequestLocale(locale);
 
-  // Fetch messages based on the locale
+  // Fetch messages based on the locale; ensure you pass 'locale'
   const messages = await getMessages(locale);
 
   return (
