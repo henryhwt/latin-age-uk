@@ -7,7 +7,7 @@ body {
 }
 
 .home-banner {
-  background-image: url('./heroimage.jpg'); 
+  background-image: url('/heroimage.jpg'); 
 
 }
 

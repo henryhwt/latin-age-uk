@@ -11,7 +11,7 @@ export default {
 
   	extend: {
 		backgroundImage: {
-			"home-banner": "url('./heroimage.jpg')",
+			"home-banner": "url('/heroimage.jpg')",
 	
 		},
   		colors: {
