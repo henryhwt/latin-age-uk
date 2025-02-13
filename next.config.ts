@@ -6,10 +6,12 @@ const withNextIntl = createNextIntPlugin(
 /** @type {import('next').NextConfig} */
 
 const nextConfig: NextConfig = {
-
-  output: "export",
-  basePath: '/latin-ageing-uk',
-  assetPrefix: '/latin-ageing-uk/',
+  images: {
+    unoptimized: true
+  }
+  // output: "export",
+  // basePath: '/latin-ageing-uk',
+  // assetPrefix: '/latin-ageing-uk/',
 
 };
 
@@ -17,3 +19,4 @@ const nextConfig: NextConfig = {
  
  
 module.exports = withNextIntl(nextConfig);
+

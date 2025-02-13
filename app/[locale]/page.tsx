@@ -18,7 +18,7 @@ export default function Home({ params: { locale } }: {params: {locale: "en"| "es
   const t = useTranslations('HomePage');
   return (
     <>
-      <section className="relative bg-[url(./2d8bff53-38eb-4549-b9fa-35b06c640291.jpg)] bg-cover bg-center h-[70vh] sm:h-[70vh] pb-16">
+     <section className="relative bg-home-banner bg-cover bg-center h-[70vh] sm:h-[70vh] pb-16">
         <MaxWidthWrapper className="text-center ">
           <div className="absolute right-0 my-20 sm:mb-56 sm:bottom-0 sm:mr-6 ">
             <Heading className="">
