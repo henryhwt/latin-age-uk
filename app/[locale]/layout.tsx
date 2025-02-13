@@ -1,5 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
+
 
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
@@ -18,8 +17,8 @@ export const metadata: Metadata = {
 export default async function LocaleLayout(
   { children, params: { locale } }
   : 
-  { children: React.ReactNode; params: 
-    { locale: 'en' | 'es' } 
+  { children: React.ReactNode; 
+    params: { locale: 'en' | 'es' } 
   }
 ) 
   {
