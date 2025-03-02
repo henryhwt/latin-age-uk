@@ -7,9 +7,9 @@ const withNextIntl = createNextIntPlugin(
 
 const nextConfig: NextConfig = {
 
-  // images: {
-  //   unoptimized: true
-  // },
+  images: {
+    unoptimized: true
+  },
   output: "export",
   basePath: '/latin-ageing-uk',
   assetPrefix: '/latin-ageing-uk/',
