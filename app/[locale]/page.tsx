@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 
 import { Heading } from "../components/Heading"
 import { MaxWidthWrapper } from "../components/max-width-wrapper"
