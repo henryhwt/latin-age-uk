@@ -1,4 +1,4 @@
-export const dynamic = 'force-dynamic';
+
 
 
 import {NextIntlClientProvider} from 'next-intl';
@@ -10,6 +10,10 @@ import { Footer } from '../components/Footer';
 import {setRequestLocale} from 'next-intl/server';
 
 import type { Metadata } from 'next'
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}));
+}
+
 
 export const metadata: Metadata = {
   title: 'Latin Ageing Association',
