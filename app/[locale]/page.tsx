@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Banner } from "../components/Banner";
 import { MasonaryGrid } from "../components/MasonaryGrid";
-import { routing } from '@/i18n/routing';
+
 import {setRequestLocale} from 'next-intl/server';
 
 
@@ -15,7 +15,6 @@ import {setRequestLocale} from 'next-intl/server';
 export default function Home({params}:{params:{locale:string}}) {
   const {locale} = params;
  
-  // Enable static rendering
   setRequestLocale(locale);
  
   const t = useTranslations('HomePage');
