@@ -11,12 +11,20 @@ import { MasonaryGrid } from "../components/MasonaryGrid";
 import {setRequestLocale} from 'next-intl/server';
 
 
+interface HomeProps {
+  params: {
+    locale: string;
+  };
+}
 
-export default async function Home({params}:{params:Promise<{ locale: string }>}) {
-  const {locale} = await params;
- 
+
+export default function Home({params}:HomeProps) {
+// export default function Home({params}:{params:Promise<{ locale: string }>}) {
+// export default function Home() {
+  const {locale} = params;
   setRequestLocale(locale);
- 
+
+
   const t = useTranslations('HomePage');
   return (
     <>
