@@ -15,13 +15,14 @@ export const metadata: Metadata = {
   description: "We're empowering individuals within the Bolivian and Latin community by providing a supportive and inclusive environment. We strive to enhance social health and well-being, foster cultural appreciation, and build lasting connections that unite us all in a shared sense of community.",
 }
 export default async function LocaleLayout(
-  { children, params: { locale } }
+  { children, params }
   : 
   { children: React.ReactNode; 
-    params: { locale: 'en' | 'es' } 
+    params: Promise<{ locale: 'en' | 'es' } >
   }
 ) 
   {
+    const {locale} = await params;
   if (!routing.locales.includes(locale)) {
     notFound();
   }
