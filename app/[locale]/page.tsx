@@ -1,4 +1,4 @@
-'use client'
+
 
 import { Heading } from "../components/Heading"
 import { MaxWidthWrapper } from "../components/max-width-wrapper"
