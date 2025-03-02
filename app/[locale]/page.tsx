@@ -7,14 +7,14 @@ import { useTranslations } from "next-intl";
 import { Banner } from "../components/Banner";
 import { MasonaryGrid } from "../components/MasonaryGrid";
 import { routing } from '@/i18n/routing';
-import { setRequestLocale } from 'next-intl/server';
+
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export default function Home({ params: { locale } }: {params: {locale: "en"| "es"}}) {
-  setRequestLocale(locale);
+export default function Home() {
+
   const t = useTranslations('HomePage');
   return (
     <>
