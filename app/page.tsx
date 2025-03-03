@@ -1,31 +1,17 @@
 
 
-import { Heading } from "../components/Heading"
-import { MaxWidthWrapper } from "../components/max-width-wrapper"
-import { ShinyButton } from "../components/ShinyButton";
+import { Heading } from "./components/Heading"
+import { MaxWidthWrapper } from "./components/max-width-wrapper"
+import { ShinyButton } from "./components/ShinyButton";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
-import { Banner } from "../components/Banner";
-import { MasonaryGrid } from "../components/MasonaryGrid";
-
-import {setRequestLocale} from 'next-intl/server';
+import { Banner } from "./components/Banner";
+import { MasonaryGrid } from "./components/MasonaryGrid";
 
 
-interface HomeProps {
-  params: {
-    locale: string;
-  };
-}
+
+export default function Home() {
 
 
-export default function Home({params}:HomeProps) {
-// export default function Home({params}:{params:Promise<{ locale: string }>}) {
-// export default function Home() {
-  const {locale} = params;
-  setRequestLocale(locale);
-
-
-  const t = useTranslations('HomePage');
   return (
     <>
       
@@ -41,7 +27,7 @@ export default function Home({params}:HomeProps) {
 
       <section>
         <MaxWidthWrapper>
-          <Heading className="text-brand-700 text-center my-20">{t('callToAction')}</Heading>
+          <Heading className="text-brand-700 text-center my-20">Join us in rediscovering joy and vitality in every moment!</Heading>
         </MaxWidthWrapper>
       </section>
 
@@ -52,9 +38,9 @@ export default function Home({params}:HomeProps) {
               <div className="relative flex h-full flex-col">
                 <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
                   <p className="mt-2 text-4xl font-medium tracking-tight text-brand-950 max-lg:text-center pb-8">
-                    {t('aboutUs')}
+           About Us 
                   </p>
-                  <p className="mt-2 max-w-lg text-2xl text-gray-600 max-lg:text-center font-sans">{t('introduction')}</p>
+                  <p className="mt-2 max-w-lg text-2xl text-gray-600 max-lg:text-center font-sans"> At Latin Ageing UK, we empower individuals aged 50 and over to embrace vibrant social lives and enhance their well-being. Our engaging activities foster connection, creativity, and a sense of community. From fitness classes to cultural outings, we provide opportunities for personal growth and friendship, ensuring that every participant feels valued and inspired.</p>
                 </div>
               </div>
             </div>
