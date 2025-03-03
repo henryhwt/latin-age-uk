@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   output: "export",
-  basePath: '.',
+  basePath: '/',
   assetPrefix: '.',
 
 };
