@@ -14,7 +14,10 @@ const LanguageSwitcher = () => {
   
   const getNewPath = (locale:string) => {
     if (['en', 'es'].includes(pathSegments[1])) {
-      return `/${locale}${pathname.substring(3)}`;
+      // return `/${locale}${pathname.substring(3)}`;
+      if (locale == "en"){
+        return `/`;
+      }
     }
     return `/${locale}${pathname}`;
   };
