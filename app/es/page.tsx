@@ -4,10 +4,8 @@ import { Heading } from "../components/Heading"
 import { MaxWidthWrapper } from "../components/max-width-wrapper"
 import { ShinyButton } from "../components/ShinyButton";
 import Image from "next/image";
-import { Banner } from "../components/Banner";
 import { MasonaryGrid } from "../components/MasonaryGrid";
-import { Button } from "@/components/ui/button";
-import { Link } from "lucide-react";
+
 import { BannerSpanish } from "../components/BannerSpanish";
 
 
