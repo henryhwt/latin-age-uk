@@ -9,8 +9,8 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   output: "export",
-  basePath: '/latinageinguk',
-  assetPrefix: '/latinageinguk/',
+  basePath: '.',
+  assetPrefix: '.',
 
 };
 
