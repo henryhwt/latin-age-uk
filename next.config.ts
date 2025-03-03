@@ -8,9 +8,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  // output: "export",
-  // basePath: '/latin-ageing-uk',
-  // assetPrefix: '/latin-ageing-uk/',
+  output: "export",
+  basePath: '/latin-ageing-uk',
+  assetPrefix: '/latin-ageing-uk/',
 
 };
 
