@@ -19,7 +19,7 @@ export default function Home() {
         <MaxWidthWrapper className="text-center ">
           <div className="absolute right-0 my-20 sm:mb-56 sm:bottom-0 sm:mr-6 ">
             <Heading className="">
-              <span className="leading-loose sm:leading-none text-white text-6xl bg-brand-700  md:p-7 rounded-md block">Latin Ageing Association</span>
+              <span className="leading-loose sm:leading-none text-white text-6xl bg-brand-700  md:p-7 rounded-md block">Latin Ageing UK C.I.C</span>
             </Heading>
           </div>
         </MaxWidthWrapper>
@@ -40,7 +40,7 @@ export default function Home() {
                   <p className="mt-2 text-4xl font-medium tracking-tight text-brand-950 max-lg:text-center pb-8">
            About Us 
                   </p>
-                  <p className="mt-2 max-w-lg text-2xl text-gray-600 max-lg:text-center font-sans"> At Latin Ageing UK, we empower individuals aged 50 and over to embrace vibrant social lives and enhance their well-being. Our engaging activities foster connection, creativity, and a sense of community. From fitness classes to cultural outings, we provide opportunities for personal growth and friendship, ensuring that every participant feels valued and inspired.</p>
+                  <p className="mt-2 max-w-lg text-2xl text-gray-600 max-lg:text-center font-sans"> At Latin Ageing UK C.I.C, we empower individuals aged 50 and over to embrace vibrant social lives and enhance their well-being. Our engaging activities foster connection, creativity, and a sense of community. From fitness classes to cultural outings, we provide opportunities for personal growth and friendship, ensuring that every participant feels valued and inspired.</p>
                 </div>
               </div>
             </div>
