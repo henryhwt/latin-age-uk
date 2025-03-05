@@ -15,7 +15,7 @@ export const Navbar = async () => {
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex z-40 font-semibold text-2xl sm:text-1xl text-brand-700">
-          LAA  <span className="text-brand-600">UK</span>
+          LA  <span className="text-brand-600">UK</span> CIC
           </Link>
 
           <div className="h-full flex items-center space-x-4">

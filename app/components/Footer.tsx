@@ -12,7 +12,7 @@ export const Footer = async () => {
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between">
          <p className="text-xs text-white">
-          © 2025 LAA UK is a community interest company based in London, UK.
+          © 2025 LA UK CIC is a community interest company based in London, UK.
           <br/>
           Registered company limited by guarantee (Company No. 14658220). 
           </p>
