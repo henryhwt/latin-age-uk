@@ -6,6 +6,8 @@ import { ShinyButton } from "./components/ShinyButton";
 import Image from "next/image";
 import { Banner } from "./components/Banner";
 import { MasonaryGrid } from "./components/MasonaryGrid";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 
 
@@ -25,13 +27,13 @@ export default function Home() {
         </MaxWidthWrapper>
       </section>
 
-      <section>
-        <MaxWidthWrapper>
-          <Heading className="text-brand-700 text-center my-20">Join us in rediscovering joy and vitality in every moment!</Heading>
-        </MaxWidthWrapper>
-      </section>
+      <section className="bg-brand-700 py-10 mb-4">
+  <MaxWidthWrapper>
+  <Heading className="text-white text-center">Join us in rediscovering joy and vitality in every moment!</Heading>
+</MaxWidthWrapper>
+</section>
 
-      <section className="relative sm:py-4 bg-brand-25">
+      <section className="relative sm:py-4 bg-brand-25 mb-4">
         <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-20">
           <div className="grid gap-4 lg:grid-cols-2">
             <div className="relative">
@@ -56,10 +58,34 @@ export default function Home() {
         </MaxWidthWrapper>
       </section >
 
-      <section className="relative">
-        <MaxWidthWrapper>
+<section className="bg-brand-700 py-10 mb-4">
+  <MaxWidthWrapper>
+    <div className="flex flex-col md:flex-row justify-evenly items-center p-2 sm:my-2 ">
+  <h2 className="text-white text-center text-2xl font-bold">Healthwatch Southwark: 1 Year Update of our Latin American Access Report!</h2>
+                 <Button variant={"outline"} asChild className="px-8 mt-4 md:mt-0 ">
+                        <Link href={'https://www.healthwatchsouthwark.org/news/2024-10-02/1-year-update-our-latin-american-access-report'}>
+                            Read Now
+                        </Link>
+                    </Button>
+                    </div>
+</MaxWidthWrapper>
+</section>
+
+
+<section>
+  <div className="columns-1 sm:columns-2 gap-4 mx-4 my-10">
+    <div><Image className="w-full object-cover rounded-lg" src="./creativitycommunitywellbeing.jpg" alt="image creativity community wellbeing" width={100} height={100}/></div>
+
+    <div><Image className="w-full object-cover rounded-lg" src="./communityhealth.jpg" alt="community health" width={100} height={100}/></div>
+  </div>
+</section>
+
+
+
+      <section>
+<MaxWidthWrapper>
           <Banner />
-        </MaxWidthWrapper>
+          </MaxWidthWrapper>
       </section>
 
       <section className="my-16">

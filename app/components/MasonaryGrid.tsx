@@ -9,10 +9,12 @@ const images = [
   "./classroom.jpg",
   "./londoneye.jpg",
   "./flowers2.jpg",
-  "./dancers.jpg",
+  "./medals.jpg",
   "./yoga.jpg",
   "./womensday.jpg",
   "./heroimage.jpg",
+  "./vital5nhs.jpg",
+  "./fgm.jpg"
 
 ];
 

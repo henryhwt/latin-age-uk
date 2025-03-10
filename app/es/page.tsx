@@ -7,6 +7,8 @@ import Image from "next/image";
 import { MasonaryGrid } from "../components/MasonaryGrid";
 
 import { BannerSpanish } from "../components/BannerSpanish";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 
 
@@ -27,13 +29,11 @@ export default function HomeSpanish() {
         </MaxWidthWrapper>
       </section>
 
-      <section>
-        <MaxWidthWrapper>
-          <Heading className="text-brand-700 text-center my-20">
-            ¡Únete a nosotros para redescubrir la alegría y la vitalidad en cada momento!</Heading>
-        </MaxWidthWrapper>
-      </section>
-
+      <section className="bg-brand-700 py-10 mb-4">
+  <MaxWidthWrapper>
+  <Heading className="text-white text-center"> ¡Únete a nosotros para redescubrir la alegría y la vitalidad en cada momento!</Heading>
+</MaxWidthWrapper>
+</section>
       <section className="relative sm:py-4 bg-brand-25">
         <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-20">
           <div className="grid gap-4 lg:grid-cols-2">
@@ -58,6 +58,27 @@ export default function HomeSpanish() {
           </div>
         </MaxWidthWrapper>
       </section >
+      <section className="bg-brand-700 py-10 mb-4">
+  <MaxWidthWrapper>
+    <div className="flex flex-col md:flex-row justify-evenly items-center p-2 sm:my-2 ">
+  <h2 className="text-white text-center text-xl font-bold">Healthwatch Southwark: ¡Actualización de 1 año de nuestro Informe de Acceso en América Latina!</h2>
+                 <Button variant={"outline"} asChild className="px-8 mt-4 md:mt-0 ">
+                        <Link href={'https://www.healthwatchsouthwark.org/news/2024-10-02/1-year-update-our-latin-american-access-report'}>
+                        Leer Ahora
+                        </Link>
+                    </Button>
+                    </div>
+</MaxWidthWrapper>
+</section>
+
+
+<section>
+  <div className="columns-1 sm:columns-2 gap-4 mx-4 my-10">
+    <div><Image className="w-full object-cover rounded-lg" src="./creativitycommunitywellbeing.jpg" alt="image creativity community wellbeing" width={100} height={100}/></div>
+
+    <div><Image className="w-full object-cover rounded-lg" src="./communityhealth.jpg" alt="community health" width={100} height={100}/></div>
+  </div>
+</section>
 
       <section className="relative">
         <MaxWidthWrapper>
